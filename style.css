@@ -26,6 +26,7 @@ p {
 
 .card {
         max-width: 680px;
+        min-height: calc(100vh - 80px);
         margin: 0 auto;
         padding: 40px 48px;
         background: rgba(255, 255, 255, 0.6);
@@ -33,6 +34,4 @@ p {
         -webkit-backdrop-filter: blur(20px);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
-        overflow: hidden;
-        contain: layout style paint;
     }
