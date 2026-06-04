@@ -1,12 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
         min-height: 100vh;
         margin: 0;
         padding: 40px 16px;
         background: linear-gradient(135deg, #f5e6ff 0%, #e8d5f5 30%, #f0d8e8 60%, #e0d0f0 100%);
+        background-attachment: fixed;
         font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
         color: #333;
         line-height: 1.8;
         font-size: 16px;
+        -webkit-font-smoothing: antialiased;
 }
 
 
@@ -18,19 +23,6 @@ p {
     margin: 0 0 1em 0;
 }
 
-    h2 {
-        font-weight: 500;
-        margin: 0;
-    }
-    h2 a {
-        text-decoration: none;
-        color: #111;
-    }
-    h2 + p {
-        margin-top: 4px;
-        color: #888;
-        font-size: 14px;
-    }
 
 .card {
         max-width: 680px;
@@ -41,4 +33,6 @@ p {
         -webkit-backdrop-filter: blur(20px);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+        overflow: hidden;
+        contain: layout style paint;
     }
