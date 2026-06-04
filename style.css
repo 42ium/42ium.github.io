@@ -2,7 +2,7 @@ body {
     max-width: 680px;
     margin: 40px auto;
     padding: 0 16px;
-    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "HelveticaNeue", sans-serif;
     color: #333;
     line-height: 1.8;
     font-size: 16px;
@@ -16,3 +16,17 @@ img {
 p {
     margin: 0 0 lem 0;
 }
+
+    h2 {
+        font-weight: 500;
+        margin: 0;
+    }
+    h2 a {
+        text-decoration: none;
+        color: #111;
+    }
+    h2 + p {
+        margin-top: 4px;
+        color: #888;
+        font-size: 14px;
+    }
