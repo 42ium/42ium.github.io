@@ -1,11 +1,12 @@
 body {
-    max-width: 680px;
-    margin: 40px auto;
-    padding: 0 16px;
-    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "HelveticaNeue", sans-serif;
-    color: #333;
-    line-height: 1.8;
-    font-size: 16px;
+        min-height: 100vh;
+        margin: 0;
+        padding: 40px 16px;
+        background: linear-gradient(135deg, #f5e6ff 0%, #e8d5f5 30%, #f0d8e8 60%, #e0d0f0 100%);
+        font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "HelveticaNeue", sans-serif;
+        color: #333;
+        line-height: 1.8;
+        font-size: 16px;
 }
 
 
@@ -15,6 +16,7 @@ img {
 
 p {
     margin: 0 0 lem 0;
+    color:aquamarine
 }
 
     h2 {
@@ -29,4 +31,15 @@ p {
         margin-top: 4px;
         color: #888;
         font-size: 14px;
+    }
+
+.card {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 40px 48px;
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
     }
